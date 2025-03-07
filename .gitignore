@@ -1,0 +1,5 @@
+venv/
+
+cache/
+checkpoints/
+raw_data/

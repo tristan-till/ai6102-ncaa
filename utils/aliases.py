@@ -1,0 +1,16 @@
+ALIASES = {
+    "Connecticut": "UConn",
+    "Mississippi": "Ole_Miss",
+    "BYU": "Brigham_Young",
+    "Louisiana_State": "LSU",
+    "Pitt": "Pittsburgh",
+    "Southern_Methodist": "SMU",
+    "Saint_Mary's_(CA)": "Saint_Mary's",
+    "St._Joseph's": "Saint_Joseph's",
+    "St._Peter's": "Saint_Peter's",
+    "UNC": "North_Carolina",
+    "Nevada-Las_Vegas": "UNLV",
+    "Southern_California": "USC",
+    "Virginia_Commonwealth": "VCU",
+    "Massachusetts": "UMass",
+}
