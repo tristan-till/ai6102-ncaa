@@ -3,3 +3,5 @@ venv/
 cache/
 checkpoints/
 raw_data/
+predictions/
+analysis/

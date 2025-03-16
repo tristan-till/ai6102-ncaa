@@ -6,6 +6,8 @@ import torch.optim as optim
 from models.AttentionModel import AttentionModel
 import classes.data_loader as data_loader
 import utils.const as const
+import classes.tester as tester
+import classes.predictor as predictor
 
 
 def main():
@@ -23,6 +25,9 @@ def main():
     
     for epoch in range(const.EPOCHS):
         trainer.run_epoch(epoch, model, train_loader, val_loader, optimizer, scheduler, custom_loss)
+        
+    tester.test(model, test_loader)
+    predictor.predict_kaggle()
     
     
 if __name__ == "__main__":

@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class AttentionModel(nn.Module):
-    def __init__(self, feature_dim=116, hidden_dim=128, num_heads=4):
+    def __init__(self, feature_dim=82, hidden_dim=192, num_heads=4):
         super(AttentionModel, self).__init__()
         
         self.feature_encoder = nn.Sequential(

@@ -23,4 +23,4 @@ MIN_LR = 1e-6
 GRAD_CLIP = 1.0
 
 CHECKPOINT_DIR = "checkpoints"
-RUN_NAME = "run_070325-0830"
+RUN_NAME = "run_170325-0011"

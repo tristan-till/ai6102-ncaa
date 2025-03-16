@@ -35,6 +35,7 @@ def load():
     
     X = torch.tensor(X, dtype=torch.float32).to(const.DEVICE)
     y = torch.tensor(y, dtype=torch.float32).to(const.DEVICE)
+    y = (y > 0.5).float()
     
     dataset = TensorDataset(X, y)
     dataset_size = len(dataset)
